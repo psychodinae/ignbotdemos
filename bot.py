@@ -18,37 +18,31 @@ from igninterage import Igninterage
 
 estrutura_demo = {
     "palavras_chave": [
-
         {
             "modo": "todas",
             "excluir": [],
             "chave": ["qual", "lvl"],
             "resposta": ["full equip lvl 20 no max", "gostosa", "lvl 100"]
         },
-
         {
             "modo": "qualquer",
             "excluir": ['455552966'],
             "chave": ["ze sims", "zelão", "jose sims", "jose"],
             "resposta": ["abre o boção", "potchi leva modera"]
         },
-
         {
             "modo": "todas",
             "excluir": [],
             "chave": ["duro", "golpe"],
             "resposta": ["nada mais pode ser feito", "RIP"]
         },
-
         {
             "modo": "todas",
             "excluir": [],
             "chave": ["avaliem"],
             "resposta": ["penta", "mono", "avaliando com estrelas"]
         }
-
     ]
-
 }
 
 
