@@ -29,7 +29,7 @@ estrutura_demo = {
         {
             "modo": "qualquer",
             "excluir": ['455552966'],
-            "chave": ["ze sims", "zelão", "jose sims"],
+            "chave": ["ze sims", "zelão", "jose sims", "jose"],
             "resposta": ["abre o boção", "potchi leva modera"]
         },
 
