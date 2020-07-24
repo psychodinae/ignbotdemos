@@ -59,4 +59,4 @@ class Bot2:
 
 
 if __name__ == '__main__':
-    bot2 = Bot2('cache.session', 'cache.mention', tempo_de_loop=30)
+    Bot2('cache.session', 'cache.mention', tempo_de_loop=30)
