@@ -6,7 +6,9 @@ import requests
 from igninterage import Igninterage
 
 """
-    ### Ign Bot Demo by Psychodynae - 21/07/2020 ###
+    ### Ign ign Bot demo by Psychodynae - 21/07/2020 ###
+    
+    Demo de um Bot que responde a tópicos no fórum ign.
     
     O dicionario abaixo e uma demo simples, o ideal seria carregar a arvore de palavras de um arquivo
     json ou ainda um db sqlite:
