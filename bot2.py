@@ -12,11 +12,11 @@ from igninterage import Igninterage
 """
 
 
-def save_cookie_file(content, f_name):
+def save_cache_file(content, f_name):
     pickle.dump(content, open(f_name, 'wb'))
 
 
-def load_cookie_file(f_name):
+def load_cache_file(f_name):
     return pickle.load(open(f_name, 'rb'))
 
 
@@ -43,7 +43,7 @@ class Bot2:
 
     def ultimo_respondido_cache(self):
         try:
-            return load_cookie_file(self.cache_file)
+            return load_cache_file(self.cache_file)
         except FileNotFoundError:
             return 0
 
@@ -55,8 +55,8 @@ class Bot2:
             if int_post_id > ultimo_respondido:
                 print(f'Reagi ao post!: {int_post_id}')
                 self.ign.react('1', str(int_post_id))
-                save_cookie_file(int_post_id, self.cache_file)
-
+                save_cache_file(int_post_id, self.cache_file)
+                
 
 if __name__ == '__main__':
-    Bot2('cache.session', 'cache.mention', tempo_de_loop=30)
+    bot2 = Bot2('cache.session', 'cache.mention', tempo_de_loop=30)
