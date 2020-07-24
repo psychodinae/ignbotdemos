@@ -21,10 +21,9 @@ def load_cookie_file(f_name):
 
 
 class Bot2:
-    ign = Igninterage('cache.session', 'https://www.ignboards.com/')
-    ign.ign_login()
-
-    def __init__(self, cache_file, tempo_de_loop=60):
+    def __init__(self, cachesession_file, cache_file, tempo_de_loop=60):
+        self.ign = Igninterage(cachesession_file, 'https://www.ignboards.com/')
+        self.ign.ign_login()
         self.cache_file = cache_file
         while True:
             print('rodando...')
@@ -60,4 +59,4 @@ class Bot2:
 
 
 if __name__ == '__main__':
-    bot2 = Bot2('cache.mention', tempo_de_loop=30)
+    bot2 = Bot2('cache.session', 'cache.mention', tempo_de_loop=30)
