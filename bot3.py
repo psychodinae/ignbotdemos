@@ -27,14 +27,32 @@ estrutura_demo = {
         {
             "modo": "random",
             "chave": ["oi", "ola", "olá", "dae", "beleza"],
-            "resposta": ["oi amigo", "dae meu consagrado", "dae meu relacionado"]
+            "resposta": ["sim", "oi amigo", "dae meu consagrado", "dae meu relacionado"]
         },
         {
             "modo": "random",
             "chave": ["piada", "conte uma piada"],
             "resposta": ["piu", "piada 1", "piada 2"]
         },
+        {
+            "modo": "random",
+            "chave": ["foto"],
+            "resposta": ["[IMG]https://picsum.photos/200/300[/IMG]"]
+        },
+        {
+            "modo": "random",
+            "chave": ["aqui-eduardo", "aquieduardo", "aqui eduardo"],
+            "resposta": ["cada dia mais c@gado, curto demais. -aqui-eduardo332323416",
+                         "Amorecos No verão, com o calor, as fezes tendem a suar e a feder muito amorecos certamente irei vomitar e peidar demais chorei. -aqui-eduardo332323416",
+                         "Nada melhor que chegar em casa amores e achar 3 kilos de fezes alta a loira em cima da cama de calcinha querendo fazer amor. -aqui-eduardo332323416",
+                         "Quero ficar bombadão pois quero que as fezes, em banheiros públicos, saiam das privadas e peçam meu telefone amorecos. -aqui-eduardo332323416",
+                         "amorecos fiz uma fezes nesse momento é novinha. -aqui-eduardo332323416",
+                         "aveia podre e vencida com fungos nas bordas com aveia com cheiro de ovo podre amorecos depois perco alguma tripa na privada. -aqui-eduardo332323416",
+                         "Chorando demais amores.",
+                         "fezes, curto amorecos."]
+        }
     ]
+
 }
 
 
