@@ -48,8 +48,8 @@ estrutura_demo = {
                          "Quero ficar bombadão pois quero que as fezes, em banheiros públicos, saiam das privadas e peçam meu telefone amorecos. -aqui-eduardo332323416",
                          "amorecos fiz uma fezes nesse momento é novinha. -aqui-eduardo332323416",
                          "aveia podre e vencida com fungos nas bordas com aveia com cheiro de ovo podre amorecos depois perco alguma tripa na privada. -aqui-eduardo332323416",
-                         "Chorando demais amores.",
-                         "fezes, curto amorecos."]
+                         "Chorando demais amores. -aqui-eduardo332323416",
+                         "fezes, curto amorecos. -aqui-eduardo332323416"]
         }
     ]
 
