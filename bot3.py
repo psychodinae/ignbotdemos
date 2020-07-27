@@ -59,7 +59,7 @@ estrutura_demo = {
 def get_horas():
     from datetime import datetime
     hora = datetime.now()
-    return hora.strftime('%H:%M')
+    return hora.strftime('Agora são: %H:%M')
 
 
 def actions(acoes):
@@ -159,7 +159,7 @@ class Bot3:
                     if check:
                         resp = actions(respostas)
                         if resp:
-                            full_resp = f'[QUOTE="{user}, post: {post}"]{pergunta}[/QUOTE]Agora são: {resp}'
+                            full_resp = f'[QUOTE="{user}, post: {post}"]{pergunta}[/QUOTE]{resp}'
                             try:
                                 self.ign.comentar(full_resp, thread)
                                 time.sleep(20)
