@@ -8,14 +8,11 @@ from igninterage import Igninterage
 from igninterage import exceptions as ex
 
 """
-   ### Ign Bot2 Demo by Psychodynae - 24/07/2020 ###
+   ### Ign Bot3 Demo by Psychodynae - 27/07/2020 ###
 
    Bot que responde a perguntas ao ser mencionado em qulquer post ex:
 
    @Bot que horas sao
-
-
-
 """
 
 # BONUS! testado com sucesso no forum adrenaline.
