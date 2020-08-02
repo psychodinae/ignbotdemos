@@ -21,8 +21,8 @@ def load_cache_file(f_name):
 
 
 class Bot2:
-    def __init__(self, cachesession_file, cache_file, tempo_de_loop=60):
-        self.ign = Igninterage(cachesession_file, 'https://www.ignboards.com/')
+    def __init__(self, cache_session_file, cache_file, tempo_de_loop=60):
+        self.ign = Igninterage('https://www.ignboards.com/', cache_session_file)
         self.ign.ign_login()
         self.cache_file = cache_file
         while True:
