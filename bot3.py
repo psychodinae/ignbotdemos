@@ -81,7 +81,7 @@ class Bot3:
     _url = 'https://www.ignboards.com/' 
 
     def __init__(self, cache_session_file, cache_file, tempo_de_loop=60):
-        self.ign = Igninterage(cache_session_file, self._url)
+        self.ign = Igninterage(self._url, cache_session_file)
         # self.ign.xenforo2_login('miuser', 'mypass') # BONUS! testado com sucesso no forum adrenaline.
         self.ign.ign_login()
         self.cache_file = cache_file
