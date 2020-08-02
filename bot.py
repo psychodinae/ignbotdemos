@@ -48,7 +48,7 @@ estrutura_demo = {
 }
 
 
-ign = Igninterage('cache.session', 'https://www.ignboards.com/')
+ign = Igninterage('https://www.ignboards.com/', 'cache.session')
 session = requests.Session()
 
 ign.ign_login()
