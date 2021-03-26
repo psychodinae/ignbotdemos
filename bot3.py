@@ -15,8 +15,6 @@ from igninterage import exceptions as ex
    @Bot que horas sao
 """
 
-# BONUS! testado com sucesso no forum adrenaline.
-
 estrutura_demo = {
     "palavras_chave": [
         {
