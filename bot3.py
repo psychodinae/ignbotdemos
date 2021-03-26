@@ -77,7 +77,6 @@ def load_cache_file(f_name):
 
 
 class Bot3:
-    # _url = 'https://adrenaline.com.br/forum/' # BONUS! testado com sucesso no forum adrenaline.
     _url = 'https://www.ignboards.com/' 
 
     def __init__(self, cache_session_file, cache_file, tempo_de_loop=60):
